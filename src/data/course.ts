@@ -7,7 +7,7 @@ export const course = {
   schedule: 'Lunes 10:00–13:00 · Martes a jueves 08:00–12:00',
   duration: '15 horas',
   modality: 'Presencial · Taller práctico',
-  repository: 'curso-creacion-software-agentes-ia',
+  repository: 'curso_agentes_ia',
   edition: 'Edición 2026',
 } as const
 

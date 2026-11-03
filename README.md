@@ -40,7 +40,7 @@ npm run build       # Compilación de producción en dist/
 npm run preview     # Sirve la compilación de producción
 ```
 
-En desarrollo el sitio se sirve desde la raíz (`/`). En producción, Vite usa por defecto la base `/curso-creacion-software-agentes-ia/`, pensada para GitHub Pages.
+En desarrollo el sitio se sirve desde la raíz (`/`). En producción, Vite usa por defecto la base `/curso_agentes_ia/`, pensada para GitHub Pages.
 
 ## Estructura
 
