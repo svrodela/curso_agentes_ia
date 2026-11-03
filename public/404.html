@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Redirigiendo… | Creación de software con Agentes de IA</title>
+    <script>
+      // GitHub Pages no conoce las rutas del SPA. Este archivo las convierte en
+      // una query que index.html restaura antes de montar React.
+      // pathSegmentsToKeep = 1 porque el sitio vive en /nombre-del-repositorio/.
+      ;(function (location) {
+        var pathSegmentsToKeep = 1
+        var base = location.pathname
+          .split('/')
+          .slice(0, 1 + pathSegmentsToKeep)
+          .join('/')
+
+        var route = location.pathname
+          .slice(1)
+          .split('/')
+          .slice(pathSegmentsToKeep)
+          .join('/')
+          .replace(/&/g, '~and~')
+
+        var query = location.search
+          ? '&' + location.search.slice(1).replace(/&/g, '~and~')
+          : ''
+
+        location.replace(
+          location.protocol +
+            '//' +
+            location.hostname +
+            (location.port ? ':' + location.port : '') +
+            base +
+            '/?/' +
+            route +
+            query +
+            location.hash,
+        )
+      })(window.location)
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo a la página solicitada…</p>
+    <p><a href="./">Volver al inicio del curso</a></p>
+  </body>
+</html>

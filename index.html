@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090b" />
+    <meta
+      name="description"
+      content="Portal del curso Creación de software con Agentes de IA, en el marco del Congreso Ciencias Revueltas 2026. Cuatro días para aprender a construir software con OpenCode, RAG y MCP. ITS Santiago Papasquiaro."
+    />
+    <title>Creación de software con Agentes de IA · Congreso Ciencias Revueltas 2026</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script>
+      // Restaura la ruta cuando GitHub Pages devuelve 404.html en un enlace directo.
+      ;(function (location) {
+        if (location.search[1] === '/') {
+          var decoded = location.search
+            .slice(1)
+            .split('&')
+            .map(function (part) {
+              return part.replace(/~and~/g, '&')
+            })
+            .join('?')
+          window.history.replaceState(null, null, location.pathname.slice(0, -1) + decoded + location.hash)
+        }
+      })(window.location)
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

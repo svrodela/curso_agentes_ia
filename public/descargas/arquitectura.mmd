@@ -1,0 +1,16 @@
+flowchart LR
+    U[Estudiante] -->|pregunta| F[Frontend]
+    F -->|POST /consultar| A[API FastAPI]
+    A --> V[Validación]
+    V --> R[Recuperación RAG]
+    R --> C[(ChromaDB)]
+    C --> D[Documentos de demostración]
+    R --> G[Generación con modelo]
+    G --> A
+    A -->|respuesta y fuentes| F
+    F --> U
+
+    O[OpenCode] -->|desarrollo asistido| A
+    O -->|MCP de solo lectura| D
+    T[Pruebas] --> A
+    T --> R

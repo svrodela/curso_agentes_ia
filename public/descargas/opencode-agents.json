@@ -1,0 +1,44 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["AGENTS.md"],
+  "agent": {
+    "arquitecto": {
+      "description": "Analiza el proyecto, propone arquitectura y revisa decisiones. No modifica archivos.",
+      "mode": "subagent",
+      "prompt": "{file:./prompts/arquitecto.md}",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "webfetch": "deny"
+      }
+    },
+    "desarrollador": {
+      "description": "Implementa funcionalidades aprobadas, escribe pruebas y mantiene el código.",
+      "mode": "subagent",
+      "prompt": "{file:./prompts/desarrollador.md}",
+      "permission": {
+        "edit": "allow",
+        "bash": "ask"
+      }
+    },
+    "tester": {
+      "description": "Revisa cambios, ejecuta pruebas y reporta fallos sin modificar el código.",
+      "mode": "subagent",
+      "prompt": "{file:./prompts/tester.md}",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": {
+          "*": "deny",
+          "pytest *": "allow",
+          "python -m pytest *": "allow",
+          "npm test *": "allow",
+          "npm run test *": "allow",
+          "git diff *": "allow",
+          "git status *": "allow"
+        }
+      }
+    }
+  }
+}

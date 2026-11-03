@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Curso de Agentes de IA">
+  <rect width="32" height="32" rx="7" fill="#09090b"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" fill="none" stroke="#27272a"/>
+  <path d="M9 22.5 15.5 9h2.2L24 22.5h-2.6l-1.5-3.6h-6.3L12.1 22.5H9Zm4.9-5.8h4.8l-2.4-5.7-2.4 5.7Z" fill="#a78bfa"/>
+  <circle cx="24" cy="9" r="2.4" fill="#34d399"/>
+</svg>

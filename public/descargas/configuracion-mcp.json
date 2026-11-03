@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "documentos_academicos": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\proyectos\\tecbot-academico\\documentos-demo"
+      ],
+      "enabled": true,
+      "timeout": 30000
+    }
+  },
+  "permission": {
+    "documentos_academicos_write_file": "deny",
+    "documentos_academicos_edit_file": "deny",
+    "documentos_academicos_create_directory": "deny",
+    "documentos_academicos_move_file": "deny",
+    "documentos_academicos_read_file": "ask",
+    "documentos_academicos_list_directory": "allow",
+    "documentos_academicos_search_files": "allow"
+  }
+}
