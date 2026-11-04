@@ -227,6 +227,13 @@ Error de validación:
       "temperature": 0.1,
       "permission": { "edit": "deny", "bash": "deny", "webfetch": "deny" }
     },
+    "disenador-web": {
+      "description": "Define la interfaz, componentes y sistema de diseño. No implementa lógica.",
+      "mode": "subagent",
+      "prompt": "{file:./prompts/disenador-web.md}",
+      "temperature": 0.2,
+      "permission": { "edit": "deny", "bash": "deny" }
+    },
     "desarrollador": {
       "description": "Implementa funcionalidades aprobadas y escribe pruebas.",
       "mode": "subagent",

@@ -7,6 +7,11 @@ import { DocLayout } from '../components/course/DocLayout'
 import { Markdown } from '../components/course/Markdown'
 
 const nextSteps: Record<string, { title: string; path: string; label: string }> = {
+  '/opencode': {
+    title: 'Programa general',
+    path: '/programa',
+    label: 'Ver programa',
+  },
   '/programa': {
     title: 'Día 1: De la idea al proyecto de software',
     path: '/dias/dia-1',
@@ -25,6 +30,11 @@ const nextSteps: Record<string, { title: string; path: string; label: string }> 
 }
 
 const prevSteps: Record<string, { title: string; path: string; label: string }> = {
+  '/programa': {
+    title: 'Guía de OpenCode',
+    path: '/opencode',
+    label: 'OpenCode',
+  },
   '/proyecto-integrador': {
     title: 'TecBot Académico',
     path: '/proyecto-conductor',

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "coordinador": {
+      "description": "Agente principal que coordina el desarrollo de TecBot Académico.",
+      "mode": "primary",
+      "prompt": "{file:./agentes/coordinador.md}"
+    },
+    "arquitecto": {
+      "description": "Subagente: análisis y arquitectura.",
+      "mode": "subagent",
+      "prompt": "{file:./agentes/arquitecto.md}"
+    },
+    "disenador-web": {
+      "description": "Subagente: diseño visual y componentes.",
+      "mode": "subagent",
+      "prompt": "{file:./agentes/disenador-web.md}"
+    },
+    "desarrollador": {
+      "description": "Subagente: implementación.",
+      "mode": "subagent",
+      "prompt": "{file:./agentes/desarrollador.md}"
+    },
+    "tester": {
+      "description": "Subagente: pruebas y validación.",
+      "mode": "subagent",
+      "prompt": "{file:./agentes/tester.md}"
+    }
+  }
+}

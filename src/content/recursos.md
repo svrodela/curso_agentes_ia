@@ -81,6 +81,7 @@ Estos documentos son **ficticios** y se usan para las prácticas de RAG y MCP. N
 | Prompt | Rol |
 |---|---|
 | [arquitecto.md](/tecbot-academico/prompts/arquitecto.md) | Analiza y propone sin modificar archivos |
+| [disenador-web.md](/tecbot-academico/prompts/disenador-web.md) | Define la interfaz y el sistema de diseño |
 | [desarrollador.md](/tecbot-academico/prompts/desarrollador.md) | Implementa y prueba |
 | [tester.md](/tecbot-academico/prompts/tester.md) | Revisa y reporta fallos |
 
@@ -91,6 +92,10 @@ Estos documentos son **ficticios** y se usan para las prácticas de RAG y MCP. N
 | [Requerimientos](/tecbot-academico/documentacion/requerimientos.md) | RF, RNF, historias y criterios |
 | [Arquitectura](/tecbot-academico/documentacion/arquitectura.md) | Componentes, flujo y decisiones |
 | [Pruebas](/tecbot-academico/documentacion/pruebas.md) | Matriz y registro de resultados |
+| [Backend (esqueleto)](/tecbot-academico/backend/main.py) | Código de referencia FastAPI |
+| [Frontend (esqueleto)](/tecbot-academico/frontend/src/App.tsx) | Código de referencia React TS |
+| [Agentes OpenCode](/tecbot-academico/agentes/coordinador.md) | Configuración de los 4 subagentes |
+| [README de TecBot](/tecbot-academico/README.md) | Instalación y ejecución |
 
 ## Herramientas recomendadas
 
@@ -154,4 +159,5 @@ No se deben inventar enlaces de reemplazo. Es preferible retirar un recurso que 
 - [Días](/dias)
 - [Proyecto conductor](/proyecto-conductor)
 - [Proyecto integrador](/proyecto-integrador)
+- [Guía completa de OpenCode](/opencode)
 - [Acerca del curso](/acerca-del-curso)

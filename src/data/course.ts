@@ -310,6 +310,22 @@ export const projectDocs: ProjectDoc[] = [
     file: 'proyecto-conductor/requerimientos.md',
   },
   {
+    slug: 'backend',
+    title: 'Backend con FastAPI',
+    navTitle: 'Backend',
+    description:
+      'Entorno virtual, dependencias, modelos, esquemas, routers, servicios y pruebas del backend.',
+    file: 'proyecto-conductor/backend.md',
+  },
+  {
+    slug: 'frontend',
+    title: 'Frontend con React y TypeScript',
+    navTitle: 'Frontend',
+    description:
+      'Proyecto Vite, componentes tipados, integración con la API y estados de la interfaz.',
+    file: 'proyecto-conductor/frontend.md',
+  },
+  {
     slug: 'arquitectura',
     title: 'Arquitectura y tecnologías',
     navTitle: 'Arquitectura',
@@ -343,6 +359,13 @@ export interface StandaloneDoc {
 }
 
 export const standaloneDocs: StandaloneDoc[] = [
+  {
+    path: '/opencode',
+    title: 'Guía completa de OpenCode',
+    description:
+      'Instalación, configuración, inicialización, modos, herramientas, permisos, subagentes, delegación y depuración.',
+    file: 'opencode.md',
+  },
   {
     path: '/programa',
     title: 'Programa general',
