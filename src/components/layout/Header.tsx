@@ -49,7 +49,7 @@ export function Header() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-40 border-b border-line bg-canvas">
+      <header className="fixed inset-x-0 top-0 z-40 border-b border-line/70 bg-canvas/70 backdrop-blur-md">
         <div className="page-container flex h-16 items-center gap-6">
           <Link to="/" className="flex shrink-0 items-center gap-2.5 rounded-md">
             <span
