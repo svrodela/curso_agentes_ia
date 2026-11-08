@@ -47,8 +47,8 @@ export function ProjectIndex() {
           Del problema a la implementación
         </h2>
         <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
-          Cinco documentos recorren el proyecto: qué se construye, qué debe hacer, cómo se organiza,
-          cómo recupera conocimiento y cómo se conecta con herramientas.
+          Siete documentos recorren el proyecto: qué se construye, qué debe hacer, cómo se organiza
+          el backend y el frontend, cómo recupera conocimiento y cómo se conecta con herramientas.
         </p>
 
         <div className="mt-5 grid gap-3 sm:grid-cols-2">

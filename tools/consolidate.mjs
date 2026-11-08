@@ -7,6 +7,7 @@ const files = [
   'src/content/dias/dia-1/ingenieria-requerimientos.md',
   'src/content/dias/dia-1/opencode.md',
   'src/content/dias/dia-1/git-github.md',
+  'src/content/dias/dia-1/landing-page.md',
   'src/content/dias/dia-2/ciclo-agentes.md',
   'src/content/dias/dia-2/agents-md.md',
   'src/content/dias/dia-2/subagentes.md',

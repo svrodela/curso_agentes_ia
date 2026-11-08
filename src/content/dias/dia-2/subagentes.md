@@ -102,7 +102,7 @@ mode: subagent
 ... (prompt del rol) ...
 ```
 
-El repositorio incluye ejemplos descargables en `/descargas/agentes/` (si están publicados) y en `public/tecbot-academico/agentes/`.
+El repositorio incluye ejemplos descargables en `public/tecbot-academico/agentes/` (configuración) y en `public/tecbot-academico/prompts/` (prompts por rol).
 
 > **Aviso de versión:** los nombres de campos (`mode`, `description`, `prompt`) pueden variar según la versión de OpenCode. Consulta https://opencode.ai/docs/ y ajusta. No inventes campos no documentados.
 

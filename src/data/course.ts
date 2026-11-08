@@ -97,7 +97,16 @@ export const days: CourseDay[] = [
           'Inicializa el repositorio, registra cambios, conecta con GitHub y publica la primera versión del proyecto.',
         duration: '35 min',
         file: 'dias/dia-1/git-github.md',
-      },
+        },
+        {
+          slug: 'landing-page',
+          title: 'Landing page y recursos visuales',
+          navTitle: 'Landing page',
+          description:
+            'Genera con prompts la identidad visual, el logo SVG, la navbar, el hero y las tarjetas de TecBot Académico, y publica la interfaz en GitHub.',
+          duration: '45 min',
+          file: 'dias/dia-1/landing-page.md',
+        },
     ],
   },
   {

@@ -13,6 +13,16 @@
         "webfetch": "deny"
       }
     },
+    "disenador-web": {
+      "description": "Define la interfaz, los componentes y el sistema de diseño. No implementa lógica de negocio.",
+      "mode": "subagent",
+      "prompt": "{file:./prompts/disenador-web.md}",
+      "temperature": 0.2,
+      "permission": {
+        "edit": "allow",
+        "bash": "deny"
+      }
+    },
     "desarrollador": {
       "description": "Implementa funcionalidades aprobadas, escribe pruebas y mantiene el código.",
       "mode": "subagent",

@@ -53,7 +53,7 @@ Analiza el repositorio y genera `AGENTS.md`. Revísalo y ajusta.
 
 ### AGENTS.md
 
-Archivo de instrucciones permanentes. Incluye: propósito, alcance, stack, estructura, comandos, convenciones, reglas, definición de terminado. Ver `public/tecbot-academico/AGENTS.md` (descargable) como plantilla.
+Archivo de instrucciones permanentes. Incluye: propósito, alcance, stack, estructura, comandos, convenciones, reglas, definición de terminado. Ver `public/descargas/AGENTS.md` (descargable) como plantilla.
 
 ### Modos de interacción
 
