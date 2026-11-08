@@ -386,7 +386,7 @@ export const standaloneDocs: StandaloneDoc[] = [
     path: '/proyecto-integrador',
     title: 'Del problema a una solución inteligente',
     description:
-      'Proyecto final, entregables, rúbrica de evaluación y criterios para la presentación.',
+      'Proyecto final, trabajo en equipo, desarrollo de un MVP y criterios para la presentación.',
     file: 'proyecto-integrador.md',
   },
   {

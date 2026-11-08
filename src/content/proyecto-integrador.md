@@ -1,11 +1,11 @@
 # Del problema a una solución inteligente
 
 > **Proyecto integrador del curso**  
-> Trabajo en equipos · Demostración final · 70% de la evaluación
+> Trabajo en equipos · Desarrollo de un MVP · Demostración final
 
 ## La consigna
 
-Cada equipo identificará una necesidad real de su entorno y desarrollará una solución de software utilizando OpenCode y agentes de IA.
+Cada equipo elegirá uno de los proyectos propuestos en [Propuestas de proyectos integradores](/descargas/proyectos-integradores.md) y desarrollará un MVP funcional utilizando OpenCode y agentes de IA.
 
 El proyecto debe demostrar el uso de:
 
@@ -18,11 +18,17 @@ El proyecto debe demostrar el uso de:
 - Control de versiones en GitHub.
 - Presentación y demostración.
 
-No se evalúa la cantidad de código ni la sofisticación de la IA. Se evalúa la coherencia entre problema, solución, proceso y evidencia.
+No se trata de calificar la cantidad de código ni la sofisticación de la IA. Se trata de construir un MVP funcional y demostrar el proceso de desarrollo con agentes.
 
 ## Equipos
 
-- Tamaño sugerido: **2 a 4 personas**.
+El grupo de 30 estudiantes se organiza en ocho equipos:
+
+- Seis equipos de cuatro integrantes.
+- Dos equipos de tres integrantes.
+
+Cada equipo desarrolla un proyecto diferente, elegido de las [propuestas de proyectos integradores](/descargas/proyectos-integradores.md). No se repiten propuestas.
+
 - Cada equipo define roles, pero todos deben poder explicar el proyecto.
 - Se recomienda que al menos una persona opere la demo y otra responda preguntas.
 - El repositorio debe identificar a los integrantes en el README.
@@ -106,28 +112,9 @@ Un alcance pequeño y terminado vale más que una idea grande a medias.
 | Pruebas | Automatizadas y manuales | Salida de comandos y matriz |
 | Presentación | Diapositivas y guion | Archivo o enlace |
 
-## Rúbrica de evaluación
+## Objetivo de la demostración
 
-| Criterio | Porcentaje | Qué se observa |
-|---|---:|---|
-| Definición del problema | 15% | Claridad del usuario, necesidad, alcance y justificación |
-| Requerimientos y planeación | 15% | RF/RNF verificables, historias, criterios y arquitectura |
-| Desarrollo funcional | 25% | El flujo principal funciona y maneja errores básicos |
-| Uso de agentes y subagentes | 20% | Contexto, delegación, revisión y evidencia del proceso |
-| Repositorio y control de versiones | 10% | Historial, README, commits, ausencia de secretos |
-| Presentación y demostración | 15% | Claridad, evidencia, manejo del tiempo y preguntas |
-| **Total** | **100%** | |
-
-### Descriptores por nivel
-
-| Criterio | Insuficiente | Suficiente | Excelente |
-|---|---|---|---|
-| Problema | No se identifica usuario ni necesidad | Usuario y necesidad claros, alcance amplio | Usuario, necesidad, evidencia y alcance bien delimitado |
-| Requerimientos | Lista ambigua | RF/RNF e historias básicas | Criterios verificables y trazabilidad |
-| Desarrollo | No funciona | Flujo principal funciona | Flujo completo, errores y casos límite |
-| Agentes | Uso anecdótico | Contexto y delegación documentados | Roles, permisos, revisión y evidencia clara |
-| Repositorio | Archivos sueltos | Historial y README | Historial legible, documentación y reproducibilidad |
-| Presentación | Lee diapositivas | Explica la solución | Demuestra, argumenta y responde con evidencia |
+No hay calificación numérica: el propósito es que cada equipo organice su trabajo, desarrolle su MVP y demuestre su funcionamiento. La presentación sirve para compartir el proceso, los resultados y los aprendizajes.
 
 ## Criterios de presentación
 
@@ -230,4 +217,4 @@ Requisitos:
 - [Proyecto conductor](/proyecto-conductor)
 - [Presentación final](/dias/dia-4/presentacion)
 - [Recursos y plantillas](/recursos)
-- [Rúbrica descargable](/descargas/rubrica.md)
+- [Propuestas de proyectos integradores](/descargas/proyectos-integradores.md)

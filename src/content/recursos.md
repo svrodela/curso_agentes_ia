@@ -61,7 +61,7 @@
 | [documentacion-rag.md](/descargas/documentacion-rag.md) | Plantilla para documentar RAG |
 | [configuracion-mcp.json](/descargas/configuracion-mcp.json) | Ejemplo de servidor MCP Filesystem |
 | [ejemplo-fastapi-rag.py](/descargas/ejemplo-fastapi-rag.py) | Esqueleto de API con recuperación |
-| [rubrica.md](/descargas/rubrica.md) | Rúbrica del proyecto integrador |
+| [proyectos-integradores.md](/descargas/proyectos-integradores.md) | Propuestas de proyectos integradores para el último día |
 
 > Para descargar, abre el enlace y usa **Guardar como** o el botón de descarga del navegador. Los archivos son de texto y pueden editarse con cualquier editor.
 

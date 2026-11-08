@@ -16,18 +16,18 @@ export function PageNav({ prev, next }: { prev?: PageLink; next?: PageLink }) {
         {prev ? (
           <Link
             to={prev.path}
-            className="group card-interactive flex items-start gap-3 p-4 sm:mr-auto"
+            className="group page-nav page-nav-prev flex items-start gap-3 p-4 sm:mr-auto"
           >
             <ArrowLeft
               size={16}
-              className="mt-1 shrink-0 text-faint transition-colors group-hover:text-accent"
+              className="mt-1 shrink-0 opacity-80 transition-transform group-hover:-translate-x-0.5"
               aria-hidden="true"
             />
             <span>
-              <span className="block text-[10px] font-medium tracking-[0.12em] text-faint uppercase">
+              <span className="block text-[10px] font-medium tracking-[0.12em] uppercase opacity-70">
                 {prev.label ?? 'Anterior'}
               </span>
-              <span className="mt-1 block text-sm font-medium text-ink">{prev.title}</span>
+              <span className="mt-1 block text-sm font-semibold">{prev.title}</span>
             </span>
           </Link>
         ) : (
@@ -37,17 +37,17 @@ export function PageNav({ prev, next }: { prev?: PageLink; next?: PageLink }) {
         {next && (
           <Link
             to={next.path}
-            className="group card-interactive flex items-start justify-between gap-3 p-4 text-right sm:ml-auto"
+            className="group page-nav page-nav-next flex items-start justify-between gap-3 p-4 text-right sm:ml-auto"
           >
             <span className="flex-1">
-              <span className="block text-[10px] font-medium tracking-[0.12em] text-faint uppercase">
+              <span className="block text-[10px] font-medium tracking-[0.12em] uppercase opacity-70">
                 {next.label ?? 'Siguiente'}
               </span>
-              <span className="mt-1 block text-sm font-medium text-ink">{next.title}</span>
+              <span className="mt-1 block text-sm font-semibold">{next.title}</span>
             </span>
             <ArrowRight
               size={16}
-              className="mt-1 shrink-0 text-faint transition-colors group-hover:text-accent"
+              className="mt-1 shrink-0 opacity-80 transition-transform group-hover:translate-x-0.5"
               aria-hidden="true"
             />
           </Link>
